@@ -1,0 +1,92 @@
+body {
+padding: 0;
+margin: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 100%;
+height: 100%;
+min-width: 1000px;
+min-height: 10px;
+position:fixed;
+background-color: #5CDB95;
+font-family: 'Roboto Condensed', sans-serif;
+}
+.weather-app{
+font-family: 'Roboto Condensed', sans-serif;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+color: black;
+position: relative;
+bottom: -100px;
+}
+header{
+justify-content: center;
+align-items: center;
+padding: 50px 15px 1px;
+}
+header input{
+  width: 100%;
+  max-width: 280px;
+  padding: 10px 5px;
+  border: none; 
+  outline: none;
+  background-color: rgba(255,255,255,0.9);
+  border-radius: 16px 0px 16px 0px ;
+   border-bottom: 5px solid #05386b;
+  font-size: 20px;
+  font-weight: 300;
+  transition: 0.2s ease-out;
+}
+header input:focus{
+background-color: rgba(255,255,255,0.6);
+}
+main{
+  flex: 1 1 100%;
+  padding: 25px 25px 50px;
+  display: flex;
+  flex-direction: column; 
+}
+
+.location .city{
+  color:black;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.location .date{
+color:black;
+font-size: 16px;
+}
+.current .temp{
+ color: black ;
+font-size: 102px;
+font-weight: 900;
+margin: 2px 10px;
+}
+.current .temp span{
+  font-weight: 500;
+}
+.current .weather{
+color: black;  
+font-size: 32px;
+font-weight: 700;
+font-style: italic;
+margin-bottom: 15px;
+}
+
+.current .hi-low{
+  color: black;
+  font-size: 24px;
+  font-weight: 500;
+}
+.current{
+   color: black;
+}
+.location{
+   color: black;
+}
