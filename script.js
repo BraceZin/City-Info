@@ -1,6 +1,6 @@
 //API info
 var api = {
-  key: "6594cc410a99c9a4ff8a1753d9236668",
+  key: "TYPE YOUR API KEY HERE",
   base: "https://api.openweathermap.org/data/2.5/",
   units:"metric"
 }
